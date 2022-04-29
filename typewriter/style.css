@@ -8,13 +8,12 @@ body, html {
 }
 
 .container {
-    padding: 0 100px 0 100px;
     min-width: 400px;
     height: 100vh;
-    display: flex;
     align-items: center;
     box-sizing: border-box;
     background: var(--bg-color);
+    padding: 50px;
 }
 
 .typewriter {
@@ -22,6 +21,10 @@ body, html {
     font-size: 56px;
     color: #fff;
     font-weight: bold;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .typewriter span {
