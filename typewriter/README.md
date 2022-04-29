@@ -1,2 +1,2 @@
 ![image](typewriter.png)
-https://hckkiu.github.io/code-snippets/typewriter/
+Live preview: https://hckkiu.github.io/code-snippets/typewriter/
