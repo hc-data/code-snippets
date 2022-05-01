@@ -1,4 +1,4 @@
 # Typewriter effect
-![](typewriter.png)  
-![](typewriter.MOV)  
+![image](typewriter.png)  
+![video](typewriter.mov)  
 Live preview: https://hckkiu.github.io/code-snippets/typewriter/
