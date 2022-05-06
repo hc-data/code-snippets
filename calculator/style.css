@@ -94,6 +94,9 @@ body {
     .screen-container {
         height: 220px;
     }
+    .screen {
+        font-size: 35px;
+    }
     .btn {
         width: 70px;
         height: 70px;
