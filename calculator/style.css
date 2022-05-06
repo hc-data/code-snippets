@@ -91,8 +91,8 @@ body {
     .calc {
         width: 324px;
     }
-    .screen {
-        height: 500px;
+    .screen-container {
+        height: 220px;
     }
     .btn {
         width: 70px;
