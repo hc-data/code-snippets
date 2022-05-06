@@ -85,3 +85,26 @@ body {
 .ac:active, .plus-minus:active, .percent:active {
     background-color: #c4c4c4;
 }
+
+
+@media (max-width: 576px) {
+    .calc {
+        width: 480px;
+    }
+    .screen {
+        height: 350px;
+    }
+    .btn {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        font-size: 30px;
+        line-height: 100px;
+    }
+    .zero {
+        width: 220px;
+    }
+    .zero::after {
+        width: 100px;
+    }
+}
