@@ -39,10 +39,23 @@ plus.onclick = () => { screen.innerHTML += "+"; }
 ac.onclick = () => { screen.innerHTML = ""; }
 
 plusMinus.onclick = () => {
-    if(screen.innerHTML.charAt(0) == "–") {
-        screen.innerHTML = screen.innerHTML.substring(1, screen.innerHTML.length);
+    oriMsg = screen.innerHTML;
+    var i = Math.max(
+        oriMsg.lastIndexOf("+"), 
+        oriMsg.lastIndexOf("–"), 
+        oriMsg.lastIndexOf("×"), 
+        oriMsg.lastIndexOf("÷")
+    );
+    const operation = oriMsg.charAt(i);
+    const lastNum = oriMsg.substring(i+1, oriMsg.length);
+    if(operation == "–") {
+        if(i == 0) {
+            screen.innerHTML = lastNum;
+        } else {
+            screen.innerHTML = oriMsg.substring(0, i) + "+" + lastNum;
+        }
     } else {
-        screen.innerHTML = "–" + screen.innerHTML;
+        screen.innerHTML = oriMsg.substring(0, i) + "–" + lastNum;
     }
 }
 
